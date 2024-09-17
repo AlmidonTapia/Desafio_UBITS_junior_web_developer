@@ -12,8 +12,8 @@ const init = async () => {
 
   userNameElement.textContent = userName || 'Usuario Anónimo';
   planNameElement.textContent = planName || 'Nombre del Plan';
-  priceElement.textContent = planPrice ? `$${planPrice}` : '$0.00';
-  priceTotalElement.textContent = planPrice ? `$${planPrice}` : '$0.00';
+  priceElement.textContent = planPrice ? `${planPrice}` : '$0.00';
+  priceTotalElement.textContent = planPrice ? `${planPrice}` : '$0.00';
 
   // 1.3 Inyecta la fecha actual en la fecha de la factura
   const actualDate = new Date();
