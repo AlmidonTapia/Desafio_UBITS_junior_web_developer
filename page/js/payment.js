@@ -100,6 +100,7 @@ number.addEventListener("input", function (e) {
 // elemento `month` y `year`
 
 /*  CHANGE THE FORMAT DATE  */
+
 date.addEventListener("input", function (e) {
   e.target.value = dateAutoFormat(e.target.value);
   // show error if is not a valid date
